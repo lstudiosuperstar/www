@@ -1,0 +1,4 @@
+title = "Маркетинговое Агенство"
+Paginate = 200
+uglyUrls = true
+disableKinds = ["RSS"]
