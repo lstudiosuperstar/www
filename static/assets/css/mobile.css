@@ -1,0 +1,468 @@
+@media (max-width: 1200px) {
+    .grid-item {
+        width: 270px;
+    }
+    .grid-about {
+        left: 0;
+    }
+    .footer-menu a {
+        font: 400 14px/25px "Open Sans", sans-serif;
+    }
+}
+
+@media (max-width: 992px) {
+    footer .container{
+            padding: 50px 15px 50px 15px;
+    }
+    .banner .banner-card {
+        width: 750px;
+    }
+    .banner .sub-photo {
+        left: -180px;
+        top: 50px;
+    }
+    .banner .banner-text:after {
+        left: 15%;
+    }
+    .grid-item {
+        width: 208px;
+    }
+    .grid-about .grid-about-item {
+        width: 120px;
+    }
+    .grid-about .grid-about-item img {
+        width: 100%;
+        height: auto;
+    }
+    .grid-about .grid-about-item-wide {
+        width: 150px;
+    }
+    .grid-about .grid-about-item:first-child {
+        left: 0px;
+        top: 0px;
+    }
+    .grid-about .grid-about-item:nth-child(2) {
+        position: absolute;
+        left: 125px;
+        top: 0px;
+    }
+    .grid-about .grid-about-item:nth-child(3) {
+        position: absolute;
+        left: 125px;
+        top: 100px;
+    }
+    .grid-about .grid-about-item:nth-child(4) {
+        position: absolute;
+        left: 280px;
+        top: 0;
+    }
+    .about ul {
+        margin-top: 40px;
+    }
+    .re-text {
+        width: auto;
+          height: auto;
+        min-height: 250px;
+    }
+    .footer-menu a {
+        width: 50%;
+    }
+    .phones .number {
+        line-height: 40px;
+    }
+    .top-menu nav {
+        padding: 0px 20px;
+    }
+    .gallery-show figure h2 {
+        font-size: 18px;
+    }
+    figure.effect-lily h2,
+    figure.effect-lily p {
+        -webkit-transform: translate3d(0, -25px, 0);
+        transform: translate3d(0, -25px, 0);
+    }
+    figure.effect-lily figcaption > div {
+        padding: 10px;
+    }
+    .top-menu li:hover ul {
+        display: none;
+    }
+    .top-menu nav li.on-hover ul {
+        display: block;
+    }
+    .top-menu li ul li {
+        width: 50%;
+    }
+    .tingle-modal-box__content {
+    padding: 1rem;
+}
+.tingle-modal-box__content form {
+    width: 90%;
+}
+.tingle-modal-box__content h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+footer .phones .number{
+    display: block;
+    margin-bottom: 0;
+
+}
+footer .phones span{
+    padding-top: 0;
+}
+footer .social {
+    margin: 10px 0 0 0;
+}
+}
+
+@media (max-width: 768px) {
+    .hero .social {
+        text-align: right;
+        position: absolute;
+        top: 0;
+        right: 60px;
+    }
+    .city-list {
+        top: 28px;
+        left: -140px;
+        width: 275px;
+        z-index: 55;
+        padding: 6px;
+        box-shadow: 3px 17px 4px 0px rgba(85, 85, 85, 0.11);
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .top-menu nav {
+        display: none;
+    }
+    .top-menu li {
+        float: left;
+        width: 100%;
+    }
+    .banner .banner-card {
+        width: 95%;
+    }
+    .slick-next {
+    right: -18px;
+}
+    .banner .sub-photo {
+        width: 272px;
+        height: 287px;
+        left: -130px;
+        top: 30px;
+    }
+    .banner .banner-text:after {
+        display: none;
+    }
+    .grid-item {
+        width: 32.5%;
+    }
+    .grid {
+        width: 90%;
+    }
+    .item-card {
+        height: 130px;
+    }
+    .grid-about-item {
+        display: none;
+        background: none;
+    }
+    .grid-about {
+        display: none;
+    }
+    .about ul {
+        background: url(../images/about-bg.jpg);
+        background-size: 85%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about ul li {
+        background: rgba(255, 255, 255, 0.81);
+        width: 85%;
+        margin: auto;
+    }
+    .about ul li:first-child {
+        padding-top: 50px;
+    }
+    .about ul li:last-child {
+        padding-bottom: 40px;
+    }
+    .re-text {
+        width: 80%;
+    }
+    .banner .banner-card {
+        background-size: cover;
+        height: auto;
+        padding-bottom: 15px;      
+    }
+    .banner h3 {
+    margin-top: 70px;
+}
+    footer {
+        padding: 50px 20px 20px 20px;
+    }
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .image-title{
+        font-size:1.3rem;
+    }
+    .top-menu li ul{
+        padding: 30px 20px;
+        
+    }
+}
+
+@media (max-width: 650px) {
+    .hero .phones span {
+        margin-left: 20px;
+        font: 200 20px "Open Sans", sans-serif;
+    }
+    .hero .phones .number {
+        color: #000000;
+        font: 400 20px "Open Sans", sans-serif;
+        display: inline;
+    }
+    .hero .phones span {
+        text-align: right;
+    }
+    .top-menu {
+        margin-bottom: 5px;
+    }
+    .hero .phones {
+        float: right;
+        margin-left: 0px;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .hero .action {
+        margin-top: 25px;
+    }
+   
+    .banner .banner-text {
+        padding: 9px 0 20px 0;
+    }
+    .banner .sub-photo {
+        width: 272px;
+        height: 287px;
+        left: -80px;
+        top: 90px;
+    }
+    .banner .banner-slide {
+        padding: 15px 15px 15px 15px;
+    }
+    .banner {
+        background-color: #f8feff;
+        padding: 30px 15px;
+    }
+    .about ul {
+        background: url(../images/about-bg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 15px;
+    }
+    
+    .item-card {
+        height: 180px;
+    }
+    .tingle-modal-box{
+        width: 85%;
+    }
+    .hero .logo {
+    float: left;
+    margin-top: 55px;
+}
+}
+
+@media (max-width: 550px) {
+    .top-menu li ul li {
+        width: 100%;
+        text-align:center;
+    }
+    .width100 {
+        width: 100%;
+        margin: auto;
+        float: none;
+    }
+    .hero .phones{
+        margin-top: 15px;
+    }
+    footer {
+    padding: 0;
+}
+
+.developer {
+    margin-top: 30px;
+    padding: 0 15px;
+}
+footer .phones {
+    margin-top: 10px;
+    text-align: center;
+}
+    .seo-text .img-wrapper img {
+        width: auto;
+        height: auto;
+        margin: 14px auto;
+    }
+    .item-card {
+        height: 200px;
+    }
+    .about ul {
+        background-size: cover;
+        background-position: center top;
+    }
+    .re-photo img {
+        width: 100px;
+    }
+    .re-text {
+        padding: 20px;
+
+    }
+    .grid-link {
+        height: 130px;
+        background-color: #f8cce0;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .banner ul li {
+        color: #ffffff;
+        font: 400 14px "Open Sans", sans-serif;
+    }
+    .banner .banner-price .text-big {
+        font: 400 22px/22px "Open Sans", sans-serif;
+    }
+    .banner .banner-price .text-cross {
+        font: 400 20px/20px "Open Sans", sans-serif;
+    }
+    .banner h3 {
+        color: #ffffff;
+        font: 400 28px "Open Sans", sans-serif;
+    }
+    footer .col-xs-9 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    footer .logo {
+        margin-left: 15px;
+    }
+    .footer-menu a {
+        width: 50%;
+        height: 70px;
+    }
+    .footer-menu {
+        margin-top: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .list ul {
+        margin: 30px 15px 0 15px;
+    }
+    .grid-item{
+        width: 48%;
+    }
+}
+
+@media (max-width: 435px) {
+    .gallery-show .col-xs-6 {
+        float: none;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .hidden-extra {
+        display: none;
+    }
+    .hero .phones .number {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hero .phones span {
+        margin-top: 0;
+    }
+    .re-photo img {
+        width: 85px;
+    }
+    .footer-menu a {
+        height: 50px;
+    }
+    .footer-menu a:nth-child(1),
+    .footer-menu a:nth-child(2),
+    .footer-menu a:nth-child(3),
+    .footer-menu a:nth-child(4),
+    .footer-menu a:nth-child(5),
+    .footer-menu a:nth-child(6),
+    .footer-menu a:nth-child(7) {
+        height: 40px;
+    }
+    .phones .number {
+        margin-left: 5px;
+    }
+    .hero {
+        padding: 30px 20px;
+    }
+    .item-card .text-wrapper {
+        font: 400 13px "Open Sans", sans-serif;
+        padding: 0px 0px;
+    }
+    .phones .number {
+        display: block;
+        margin: 0;
+        line-height: 25px;
+    }
+    .about {
+        padding: 30px 0;
+        background-color: #f8feff;
+    }
+}
+@media(max-width: 400px){
+    .grid-item{
+        width: 100%;
+    }
+}
+@media (max-width: 380px) {
+    .banner .banner-price {
+        padding: 5px 8px;
+    }
+    .about ul li {
+        background: rgba(255, 255, 255, 0.81);
+        width: 100%;
+    }
+    .how-we-work ul li {
+        position: relative;
+        padding: 12px 2px;
+        color: #000000;
+        font: 400 14px "Open Sans", sans-serif;
+    }
+    .banner .banner-card {
+        height: auto;
+    }
+    .hero .social {
+        right: 10px;
+    }
+    
+    .banner h3 {
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .banner .banner-price {
+        top: 30px;
+        padding: 3px 20px;
+        background-color: #b88083;
+    }
+    .footer-menu a {
+        height: 60px;
+    }
+    .city-select{
+            width: 120px;
+    }
+    .logo img{
+        width: 88%;
+    }
+}
