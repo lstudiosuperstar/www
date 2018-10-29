@@ -7,26 +7,6 @@
  <body>
 
       <h1>{{.Title}}</h1>
-      {{ $pag := .Paginate .Data.Pages }}
-      {{ range $pag.Pages }}
-      <section>
-      <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-
-      </section>
-      {{ end }}
-      </section>
-      {{ $pag := $.Paginator }}
-      {{ if gt $pag.TotalPages 1 }}
-      <nav class="pagination">
-      <ul>
-      {{ if $pag.HasPrev }}
-      <li><a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous">prev</a></li>
-      {{ end }}
-      {{ if $pag.HasNext }}
-      <li><a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next">next</a></li>
-      {{ end }}
-      </ul>
-      </nav>
-      {{ end }}
+    
    </body>
 </html>

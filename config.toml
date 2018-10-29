@@ -1,2 +1,6 @@
 title = "Маркетинговое Агенство"
-disableKinds = ["RSS","taxonomy"]
+disableKinds = ["RSS"]
+
+[taxonomies]
+  tag = ""
+  category = ""
